@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5621F821B6CC0D00DC2C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5621F721B6CC0D00DC2C0A /* AppDelegate.swift */; };
+		FA5621FA21B6CC0D00DC2C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5621F921B6CC0D00DC2C0A /* ViewController.swift */; };
+		FA5621FD21B6CC0D00DC2C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5621FB21B6CC0D00DC2C0A /* Main.storyboard */; };
+		FA56220021B6CC0E00DC2C0A /* PezotosApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA5621FE21B6CC0D00DC2C0A /* PezotosApp.xcdatamodeld */; };
+		FA56220221B6CC0F00DC2C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA56220121B6CC0F00DC2C0A /* Assets.xcassets */; };
+		FA56220521B6CC0F00DC2C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA56220321B6CC0F00DC2C0A /* LaunchScreen.storyboard */; };
+		FA56221021B6CC0F00DC2C0A /* PezotosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56220F21B6CC0F00DC2C0A /* PezotosAppTests.swift */; };
+		FA56221B21B6CC0F00DC2C0A /* PezotosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56221A21B6CC0F00DC2C0A /* PezotosAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA56220C21B6CC0F00DC2C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5621EC21B6CC0D00DC2C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5621F321B6CC0D00DC2C0A;
+			remoteInfo = PezotosApp;
+		};
+		FA56221721B6CC0F00DC2C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5621EC21B6CC0D00DC2C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5621F321B6CC0D00DC2C0A;
+			remoteInfo = PezotosApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5621F421B6CC0D00DC2C0A /* PezotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PezotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5621F721B6CC0D00DC2C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA5621F921B6CC0D00DC2C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA5621FC21B6CC0D00DC2C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA5621FF21B6CC0D00DC2C0A /* PezotosApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PezotosApp.xcdatamodel; sourceTree = "<group>"; };
+		FA56220121B6CC0F00DC2C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA56220421B6CC0F00DC2C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA56220621B6CC0F00DC2C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA56220B21B6CC0F00DC2C0A /* PezotosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PezotosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA56220F21B6CC0F00DC2C0A /* PezotosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PezotosAppTests.swift; sourceTree = "<group>"; };
+		FA56221121B6CC0F00DC2C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA56221621B6CC0F00DC2C0A /* PezotosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PezotosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA56221A21B6CC0F00DC2C0A /* PezotosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PezotosAppUITests.swift; sourceTree = "<group>"; };
+		FA56221C21B6CC0F00DC2C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5621F121B6CC0D00DC2C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA56220821B6CC0F00DC2C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA56221321B6CC0F00DC2C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5621EB21B6CC0D00DC2C0A = {
+			isa = PBXGroup;
+			children = (
+				FA5621F621B6CC0D00DC2C0A /* PezotosApp */,
+				FA56220E21B6CC0F00DC2C0A /* PezotosAppTests */,
+				FA56221921B6CC0F00DC2C0A /* PezotosAppUITests */,
+				FA5621F521B6CC0D00DC2C0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5621F521B6CC0D00DC2C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5621F421B6CC0D00DC2C0A /* PezotosApp.app */,
+				FA56220B21B6CC0F00DC2C0A /* PezotosAppTests.xctest */,
+				FA56221621B6CC0F00DC2C0A /* PezotosAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5621F621B6CC0D00DC2C0A /* PezotosApp */ = {
+			isa = PBXGroup;
+			children = (
+				FA5621F721B6CC0D00DC2C0A /* AppDelegate.swift */,
+				FA5621F921B6CC0D00DC2C0A /* ViewController.swift */,
+				FA5621FB21B6CC0D00DC2C0A /* Main.storyboard */,
+				FA56220121B6CC0F00DC2C0A /* Assets.xcassets */,
+				FA56220321B6CC0F00DC2C0A /* LaunchScreen.storyboard */,
+				FA56220621B6CC0F00DC2C0A /* Info.plist */,
+				FA5621FE21B6CC0D00DC2C0A /* PezotosApp.xcdatamodeld */,
+			);
+			path = PezotosApp;
+			sourceTree = "<group>";
+		};
+		FA56220E21B6CC0F00DC2C0A /* PezotosAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA56220F21B6CC0F00DC2C0A /* PezotosAppTests.swift */,
+				FA56221121B6CC0F00DC2C0A /* Info.plist */,
+			);
+			path = PezotosAppTests;
+			sourceTree = "<group>";
+		};
+		FA56221921B6CC0F00DC2C0A /* PezotosAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA56221A21B6CC0F00DC2C0A /* PezotosAppUITests.swift */,
+				FA56221C21B6CC0F00DC2C0A /* Info.plist */,
+			);
+			path = PezotosAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5621F321B6CC0D00DC2C0A /* PezotosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA56221F21B6CC0F00DC2C0A /* Build configuration list for PBXNativeTarget "PezotosApp" */;
+			buildPhases = (
+				FA5621F021B6CC0D00DC2C0A /* Sources */,
+				FA5621F121B6CC0D00DC2C0A /* Frameworks */,
+				FA5621F221B6CC0D00DC2C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PezotosApp;
+			productName = PezotosApp;
+			productReference = FA5621F421B6CC0D00DC2C0A /* PezotosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA56220A21B6CC0F00DC2C0A /* PezotosAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA56222221B6CC0F00DC2C0A /* Build configuration list for PBXNativeTarget "PezotosAppTests" */;
+			buildPhases = (
+				FA56220721B6CC0F00DC2C0A /* Sources */,
+				FA56220821B6CC0F00DC2C0A /* Frameworks */,
+				FA56220921B6CC0F00DC2C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA56220D21B6CC0F00DC2C0A /* PBXTargetDependency */,
+			);
+			name = PezotosAppTests;
+			productName = PezotosAppTests;
+			productReference = FA56220B21B6CC0F00DC2C0A /* PezotosAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA56221521B6CC0F00DC2C0A /* PezotosAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA56222521B6CC0F00DC2C0A /* Build configuration list for PBXNativeTarget "PezotosAppUITests" */;
+			buildPhases = (
+				FA56221221B6CC0F00DC2C0A /* Sources */,
+				FA56221321B6CC0F00DC2C0A /* Frameworks */,
+				FA56221421B6CC0F00DC2C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA56221821B6CC0F00DC2C0A /* PBXTargetDependency */,
+			);
+			name = PezotosAppUITests;
+			productName = PezotosAppUITests;
+			productReference = FA56221621B6CC0F00DC2C0A /* PezotosAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5621EC21B6CC0D00DC2C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Pezotos;
+				TargetAttributes = {
+					FA5621F321B6CC0D00DC2C0A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FA56220A21B6CC0F00DC2C0A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA5621F321B6CC0D00DC2C0A;
+					};
+					FA56221521B6CC0F00DC2C0A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA5621F321B6CC0D00DC2C0A;
+					};
+				};
+			};
+			buildConfigurationList = FA5621EF21B6CC0D00DC2C0A /* Build configuration list for PBXProject "PezotosApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5621EB21B6CC0D00DC2C0A;
+			productRefGroup = FA5621F521B6CC0D00DC2C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5621F321B6CC0D00DC2C0A /* PezotosApp */,
+				FA56220A21B6CC0F00DC2C0A /* PezotosAppTests */,
+				FA56221521B6CC0F00DC2C0A /* PezotosAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5621F221B6CC0D00DC2C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA56220521B6CC0F00DC2C0A /* LaunchScreen.storyboard in Resources */,
+				FA56220221B6CC0F00DC2C0A /* Assets.xcassets in Resources */,
+				FA5621FD21B6CC0D00DC2C0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA56220921B6CC0F00DC2C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA56221421B6CC0F00DC2C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5621F021B6CC0D00DC2C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5621FA21B6CC0D00DC2C0A /* ViewController.swift in Sources */,
+				FA5621F821B6CC0D00DC2C0A /* AppDelegate.swift in Sources */,
+				FA56220021B6CC0E00DC2C0A /* PezotosApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA56220721B6CC0F00DC2C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA56221021B6CC0F00DC2C0A /* PezotosAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA56221221B6CC0F00DC2C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA56221B21B6CC0F00DC2C0A /* PezotosAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA56220D21B6CC0F00DC2C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5621F321B6CC0D00DC2C0A /* PezotosApp */;
+			targetProxy = FA56220C21B6CC0F00DC2C0A /* PBXContainerItemProxy */;
+		};
+		FA56221821B6CC0F00DC2C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5621F321B6CC0D00DC2C0A /* PezotosApp */;
+			targetProxy = FA56221721B6CC0F00DC2C0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5621FB21B6CC0D00DC2C0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5621FC21B6CC0D00DC2C0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA56220321B6CC0F00DC2C0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA56220421B6CC0F00DC2C0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA56221D21B6CC0F00DC2C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA56221E21B6CC0F00DC2C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA56222021B6CC0F00DC2C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PezotosApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pezotos.PezotosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA56222121B6CC0F00DC2C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PezotosApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pezotos.PezotosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA56222321B6CC0F00DC2C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PezotosAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pezotos.PezotosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PezotosApp.app/PezotosApp";
+			};
+			name = Debug;
+		};
+		FA56222421B6CC0F00DC2C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PezotosAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pezotos.PezotosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PezotosApp.app/PezotosApp";
+			};
+			name = Release;
+		};
+		FA56222621B6CC0F00DC2C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PezotosAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pezotos.PezotosAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PezotosApp;
+			};
+			name = Debug;
+		};
+		FA56222721B6CC0F00DC2C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PezotosAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pezotos.PezotosAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PezotosApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5621EF21B6CC0D00DC2C0A /* Build configuration list for PBXProject "PezotosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA56221D21B6CC0F00DC2C0A /* Debug */,
+				FA56221E21B6CC0F00DC2C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA56221F21B6CC0F00DC2C0A /* Build configuration list for PBXNativeTarget "PezotosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA56222021B6CC0F00DC2C0A /* Debug */,
+				FA56222121B6CC0F00DC2C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA56222221B6CC0F00DC2C0A /* Build configuration list for PBXNativeTarget "PezotosAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA56222321B6CC0F00DC2C0A /* Debug */,
+				FA56222421B6CC0F00DC2C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA56222521B6CC0F00DC2C0A /* Build configuration list for PBXNativeTarget "PezotosAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA56222621B6CC0F00DC2C0A /* Debug */,
+				FA56222721B6CC0F00DC2C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA5621FE21B6CC0D00DC2C0A /* PezotosApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA5621FF21B6CC0D00DC2C0A /* PezotosApp.xcdatamodel */,
+			);
+			currentVersion = FA5621FF21B6CC0D00DC2C0A /* PezotosApp.xcdatamodel */;
+			path = PezotosApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA5621EC21B6CC0D00DC2C0A /* Project object */;
+}

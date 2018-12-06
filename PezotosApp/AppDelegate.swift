@@ -90,4 +90,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+public extension UIView {
+    
+    @IBInspectable public var cornerRadius: CGFloat {
+        get { return layer.cornerRadius }
+        set { layer.cornerRadius = newValue }
+    }
+}
 

@@ -41,7 +41,12 @@ class ExcerciseViewController: UIViewController {
     @objc func updateTimer() {
         countdown -= 1
         countdownLabel.text = "\(countdown)"
-        if countdown == 0 { timer.invalidate() }  //add here the perform segue
+        if countdown == 0 {
+            timer.invalidate()
+            performSegue(withIdentifier: "startSegue", sender: nil)
+        }
     }
-    
 }
+
+
+

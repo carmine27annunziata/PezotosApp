@@ -34,11 +34,11 @@
                                         <rect key="frame" x="0.0" y="116" width="343" height="333"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="50"/>
+                                                <real key="value" value="100"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYo-Is-LA5">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYo-Is-LA5">
                                         <rect key="frame" x="96.5" y="465" width="150" height="150"/>
                                         <color key="backgroundColor" red="0.76883107423782349" green="0.9268004298210144" blue="0.83136314153671265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -48,6 +48,7 @@
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                         <state key="normal" title="START">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -69,7 +70,7 @@
                                 <state key="normal" title="Button" image="settings-solid"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.80545420909630838" green="0.97837482700812184" blue="0.88127970544006951" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="BeA-sI-Dt8" firstAttribute="leading" secondItem="m9L-w5-eeO" secondAttribute="leading" constant="16" id="0ZO-GA-UEm"/>
                             <constraint firstItem="O6O-ls-7zb" firstAttribute="top" secondItem="m9L-w5-eeO" secondAttribute="top" constant="28" id="BXk-cB-Nvf"/>
@@ -112,7 +113,7 @@
                                         <rect key="frame" x="50.5" y="320.5" width="242" height="141.5"/>
                                         <color key="backgroundColor" red="0.72973459959999998" green="0.93478626009999999" blue="0.82744085789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG9-45-c4a">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG9-45-c4a">
                                         <rect key="frame" x="150.5" y="490" width="42" height="20.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20.5" id="xxL-NB-p2g"/>

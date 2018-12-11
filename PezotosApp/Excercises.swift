@@ -16,7 +16,7 @@ struct Excercise {
 }
 
 var exercises: [Excercise] = [
-    Excercise(title: "AAAA", description: "DESC AAAA", image: UIImage.gif(name: "Ex1")),
-    Excercise(title: "BBBBB", description: "DESC BBBB", image: UIImage.gif(name: "Ex1")),
-    Excercise(title: "CCCCCCC", description: "DESC CCCC", image: UIImage.gif(name: "Ex1"))
+    Excercise(title: "AAAA", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex1")),
+    Excercise(title: "BBBBB", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex1")),
+    Excercise(title: "CCCCCCC", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex1"))
 ]

@@ -10,10 +10,16 @@ import UIKit
 
 class DoingExerciseViewController: UIViewController {
 
+    var excercise: Excercise?
+    @IBOutlet var excerciseImage: UIImageView!
+    @IBAction func backToMainFromExercise(_ sender: Any) {
+        performSegue(withIdentifier: "backToMainFromExercise", sender: nil)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+       excerciseImage.image = excercise?.image
     }
     
 

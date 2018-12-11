@@ -17,9 +17,14 @@ class ExcerciseViewController: UIViewController {
     @IBAction func backToStart(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    @IBAction func startExerciseButton(_ sender: UIButton) {
+        sender.isHidden = true
+        countdownLabel.isHidden = false
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(ExcerciseViewController.updateTimer)), userInfo: nil, repeats: true)
+    }
     
     @IBOutlet var countdownLabel: UILabel!
-    var countdown = 2
+    var countdown = 10
     var timer = Timer()
     var excercise: Excercise?
     
@@ -35,15 +40,18 @@ class ExcerciseViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(ExcerciseViewController.updateTimer)), userInfo: nil, repeats: true)
     }
    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let doingExerciseVC = segue.destination as! DoingExerciseViewController
+        doingExerciseVC.excercise = excercise
+    }
+    
     @objc func updateTimer() {
         countdown -= 1
         countdownLabel.text = "\(countdown)"
         if countdown == 0 {
             timer.invalidate()
-            performSegue(withIdentifier: "startSegue", sender: nil)
         }
     }
 }

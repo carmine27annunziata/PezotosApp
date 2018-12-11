@@ -19,7 +19,7 @@ class ExcerciseViewController: UIViewController {
     }
     
     @IBOutlet var countdownLabel: UILabel!
-    var countdown = 10
+    var countdown = 2
     var timer = Timer()
     var excercise: Excercise?
     

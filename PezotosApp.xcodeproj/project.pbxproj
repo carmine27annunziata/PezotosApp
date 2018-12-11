@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2B8F72821C01CC200F4D7EA /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8F72721C01CC200F4D7EA /* SettingsController.swift */; };
+		F2B8F72A21C01CE100F4D7EA /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8F72921C01CE100F4D7EA /* SettingCell.swift */; };
 		FA3BBF1C21BEA303008D2BF6 /* CircleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF1B21BEA303008D2BF6 /* CircleSegue.swift */; };
 		FA3BBF1E21BEA5C8008D2BF6 /* ExcerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF1D21BEA5C8008D2BF6 /* ExcerciseViewController.swift */; };
 		FA3BBF2021BEA871008D2BF6 /* Excercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF1F21BEA871008D2BF6 /* Excercises.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2B8F72721C01CC200F4D7EA /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		F2B8F72921C01CE100F4D7EA /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		FA3BBF1B21BEA303008D2BF6 /* CircleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSegue.swift; sourceTree = "<group>"; };
 		FA3BBF1D21BEA5C8008D2BF6 /* ExcerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseViewController.swift; sourceTree = "<group>"; };
 		FA3BBF1F21BEA871008D2BF6 /* Excercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercises.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				FA56220621B6CC0F00DC2C0A /* Info.plist */,
 				FA5621FE21B6CC0D00DC2C0A /* PezotosApp.xcdatamodeld */,
 				FA3BBF2721BFEEAC008D2BF6 /* Ex1.gif */,
+				F2B8F72721C01CC200F4D7EA /* SettingsController.swift */,
+				F2B8F72921C01CE100F4D7EA /* SettingCell.swift */,
 			);
 			path = PezotosApp;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B8F72821C01CC200F4D7EA /* SettingsController.swift in Sources */,
 				FA3BBF2621BFEE88008D2BF6 /* Swift+Gif.swift in Sources */,
 				FA5621FA21B6CC0D00DC2C0A /* ViewController.swift in Sources */,
 				FA5621F821B6CC0D00DC2C0A /* AppDelegate.swift in Sources */,
@@ -282,6 +289,7 @@
 				FA3BBF2021BEA871008D2BF6 /* Excercises.swift in Sources */,
 				FA3BBF1C21BEA303008D2BF6 /* CircleSegue.swift in Sources */,
 				FA3BBF1E21BEA5C8008D2BF6 /* ExcerciseViewController.swift in Sources */,
+				F2B8F72A21C01CE100F4D7EA /* SettingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

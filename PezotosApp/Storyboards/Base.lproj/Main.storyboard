@@ -305,6 +305,9 @@
                                         <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="stopButtonPressed:" destination="36C-N1-nTp" eventType="touchUpInside" id="Gzz-hu-onK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76883107419999996" green="0.92680042979999999" blue="0.83136314150000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

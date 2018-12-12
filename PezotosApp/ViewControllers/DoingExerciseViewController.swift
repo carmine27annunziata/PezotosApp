@@ -30,7 +30,28 @@ class DoingExerciseViewController: UIViewController {
 
 @objc func updateTimer() {
     countdownSeconds += 1
-    countdownLabel.text = "Stepwatch:      \(countdownMinutes):\(countdownSeconds)"
-
+    if countdownSeconds == 60 {
+        countdownSeconds = 0
+        countdownMinutes += 1
+    }
+    countdownLabel.text = "Stopwatch:      \(countdownMinutes):\(countdownSeconds)"
         }
+
+    var isPaused = false
+    @IBAction func pauseButton(_ sender: UIButton) {
+        if isPaused {
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(DoingExerciseViewController.updateTimer)), userInfo: nil, repeats: true)
+            isPaused = false
+            sender.setImage(UIImage(named: "PauseButton"), for: .normal)
+        }
+        else {timer.invalidate()
+            isPaused = true
+            sender.setImage(UIImage(named: "PlayButton"), for: .normal)
+            
+        }
+    }
+    
+
+
+
 }

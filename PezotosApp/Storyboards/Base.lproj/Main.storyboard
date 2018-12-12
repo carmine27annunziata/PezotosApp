@@ -256,7 +256,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="28" id="pcZ-a0-0hE"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="23"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="36"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -264,12 +264,12 @@
                                         <rect key="frame" x="0.0" y="56" width="343" height="472.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BtK-Cv-063">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="400"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="409.5"/>
                                                 <color key="backgroundColor" red="0.72973459959999998" green="0.93478626009999999" blue="0.82744085789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="761" text="Stepwatch:      0:0" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZA-gA-Ezv">
-                                                <rect key="frame" x="0.0" y="428" width="343" height="44.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="761" text="Stopwatch:      0:0" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZA-gA-Ezv">
+                                                <rect key="frame" x="0.0" y="437.5" width="343" height="35"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -283,12 +283,15 @@
                                     <constraint firstAttribute="width" constant="90" id="86Z-dt-uYG"/>
                                     <constraint firstAttribute="height" constant="90" id="HuF-sd-vkA"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="Asset 2"/>
+                                <state key="normal" title="Button" image="PauseButton"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pauseButton:" destination="36C-N1-nTp" eventType="touchUpInside" id="qU2-lF-3rN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaI-wn-cDU">
                                 <rect key="frame" x="242" y="566.5" width="90" height="90"/>
@@ -296,7 +299,7 @@
                                     <constraint firstAttribute="height" constant="90" id="CRU-Oa-U50"/>
                                     <constraint firstAttribute="width" constant="90" id="W3n-db-QeB"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="Asset 4"/>
+                                <state key="normal" title="Button" image="StopButton"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="10"/>
@@ -330,8 +333,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Asset 2" width="146" height="146"/>
-        <image name="Asset 4" width="147" height="147"/>
+        <image name="PauseButton" width="146" height="146"/>
+        <image name="StopButton" width="147" height="147"/>
         <image name="settings-solid" width="50" height="50"/>
     </resources>
 </document>

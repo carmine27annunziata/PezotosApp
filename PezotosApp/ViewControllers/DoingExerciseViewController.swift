@@ -12,25 +12,25 @@ class DoingExerciseViewController: UIViewController {
 
     var excercise: Excercise?
     @IBOutlet var excerciseImage: UIImageView!
-    @IBAction func backToMainFromExercise(_ sender: Any) {
-        performSegue(withIdentifier: "backToMainFromExercise", sender: nil)
-    }
-
-
+    @IBOutlet var excerciseTitle: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        excerciseImage.image = excercise?.image
+        excerciseTitle.text = excercise?.title
     }
+    @IBOutlet var countdownLabel: UILabel!
+    var countdownSeconds = 0
+    var countdownMinutes = 0
 
-//
-//    /*
-//    // MARK: - Navigation
-//
-//    // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        // Get the new view controller using segue.destination.
-//        // Pass the selected object to the new view controller.
-//    }
-//    */
-//
+    override func viewDidAppear(_ animated: Bool) {
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(DoingExerciseViewController.updateTimer)), userInfo: nil, repeats: true)
+    }
+    var timer = Timer()
+
+@objc func updateTimer() {
+    countdownSeconds += 1
+    countdownLabel.text = "Stepwatch:      \(countdownMinutes):\(countdownSeconds)"
+
+        }
 }

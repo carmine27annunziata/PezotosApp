@@ -56,6 +56,7 @@ class ExcerciseViewController: UIViewController {
             countdownBig.isHidden = false
           if countdown == 0 {
             timer.invalidate()
+            performSegue(withIdentifier: "showExerciseSegue", sender: self)
         }
     }
 }

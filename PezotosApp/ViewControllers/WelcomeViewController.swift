@@ -33,9 +33,10 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if (defaults.string(forKey: "name") != nil) && (defaults.string(forKey: "weight") != nil) && (defaults.string(forKey: "birthday") != nil) {
+            self.performSegue(withIdentifier: "goToMain", sender: self)
+        }
     }
-    
-    
     
     /*
     // MARK: - Navigation

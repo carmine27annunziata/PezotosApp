@@ -18,8 +18,20 @@ class WelcomeViewController: UIViewController {
     let defaults = UserDefaults.standard
     
     @IBAction func continueAction(_ sender: Any) {
-        defaults.set(nameTextField.text, forKey: "name")
-        defaults.set(weightTextField.text, forKey: "weight")
+        
+        if let name = nameTextField.text {
+            defaults.set(name, forKey: "name")
+        } else {
+            let alert = UIAlertController(title: "Empty name", message: "Please, insert your name", preferredStyle: .alert)
+            self.present(alert, animated: true, completion: nil)
+        }
+        
+        if let weight = weightTextField.text {
+            defaults.set(weight, forKey: "weight")
+        } else {
+            let alert = UIAlertController(title: "Empty weight", message: "Please, insert your weight", preferredStyle: .alert)
+            self.present(alert, animated: true, completion: nil)
+        }
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/YYYY"
@@ -33,9 +45,6 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        if (defaults.string(forKey: "name") != nil) && (defaults.string(forKey: "weight") != nil) && (defaults.string(forKey: "birthday") != nil) {
-            self.performSegue(withIdentifier: "goToMain", sender: self)
-        }
     }
     
     /*

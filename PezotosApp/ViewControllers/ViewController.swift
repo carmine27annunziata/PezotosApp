@@ -14,6 +14,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     @IBOutlet var startButton: UIButton!
     
     let transition = CircularTransition()
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +24,8 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     }
    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "toExcersiceView" else {return}
+        
         let secondVC = segue.destination as! ExcerciseViewController
         secondVC.transitioningDelegate = self
         secondVC.modalPresentationStyle = .custom
@@ -45,5 +48,11 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
         return transition
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        if (defaults.string(forKey: "name") == nil) && (defaults.string(forKey: "weight") == nil) && (defaults.string(forKey: "birthday") == nil) {
+            print("HOLLALLALALALAL")
+            self.performSegue(withIdentifier: "goToWelcome", sender: self)
+        }
+    }
 }
 

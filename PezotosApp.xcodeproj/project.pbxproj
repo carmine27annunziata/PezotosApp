@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA35523B21C11F2300300714 /* Ex1.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35523A21C11F2300300714 /* Ex1.gif */; };
+		FA35523D21C11F4600300714 /* Ex2.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35523C21C11F4600300714 /* Ex2.gif */; };
+		FA35523F21C11F5B00300714 /* Ex3.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35523E21C11F5B00300714 /* Ex3.gif */; };
+		FA35524121C11F7400300714 /* Ex4.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35524021C11F7400300714 /* Ex4.gif */; };
+		FA35524321C11F8A00300714 /* Ex5.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35524221C11F8A00300714 /* Ex5.gif */; };
 		FA3BBF1C21BEA303008D2BF6 /* CircleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF1B21BEA303008D2BF6 /* CircleSegue.swift */; };
 		FA3BBF1E21BEA5C8008D2BF6 /* ExcerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF1D21BEA5C8008D2BF6 /* ExcerciseViewController.swift */; };
 		FA3BBF2021BEA871008D2BF6 /* Excercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF1F21BEA871008D2BF6 /* Excercises.swift */; };
 		FA3BBF2621BFEE88008D2BF6 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF2521BFEE88008D2BF6 /* Swift+Gif.swift */; };
-		FA3BBF2821BFEEAC008D2BF6 /* Ex1.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA3BBF2721BFEEAC008D2BF6 /* Ex1.gif */; };
-		FA3BBF2C21BFFB66008D2BF6 /* Ex2.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA3BBF2B21BFFB65008D2BF6 /* Ex2.gif */; };
 		FA5621F821B6CC0D00DC2C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5621F721B6CC0D00DC2C0A /* AppDelegate.swift */; };
 		FA5621FA21B6CC0D00DC2C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5621F921B6CC0D00DC2C0A /* ViewController.swift */; };
 		FA5621FD21B6CC0D00DC2C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5621FB21B6CC0D00DC2C0A /* Main.storyboard */; };
@@ -22,7 +25,6 @@
 		FA56221021B6CC0F00DC2C0A /* PezotosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56220F21B6CC0F00DC2C0A /* PezotosAppTests.swift */; };
 		FA56221B21B6CC0F00DC2C0A /* PezotosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56221A21B6CC0F00DC2C0A /* PezotosAppUITests.swift */; };
 		FA7BCD6D21C005E9008E821F /* DoingExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7BCD6C21C005E9008E821F /* DoingExerciseViewController.swift */; };
-		FA7BCD7121C00BB5008E821F /* Ex4.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA7BCD7021C00BB5008E821F /* Ex4.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA35523A21C11F2300300714 /* Ex1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Ex1.gif; path = "../../../Desktop/Esercizi App/Ex1.gif"; sourceTree = "<group>"; };
+		FA35523C21C11F4600300714 /* Ex2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Ex2.gif; path = "../../../Desktop/Esercizi App/Ex2.gif"; sourceTree = "<group>"; };
+		FA35523E21C11F5B00300714 /* Ex3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Ex3.gif; path = "../../../Desktop/Esercizi App/Ex3.gif"; sourceTree = "<group>"; };
+		FA35524021C11F7400300714 /* Ex4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Ex4.gif; path = "../../../Desktop/Esercizi App/Ex4.gif"; sourceTree = "<group>"; };
+		FA35524221C11F8A00300714 /* Ex5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex5.gif; sourceTree = "<group>"; };
 		FA3BBF1B21BEA303008D2BF6 /* CircleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSegue.swift; sourceTree = "<group>"; };
 		FA3BBF1D21BEA5C8008D2BF6 /* ExcerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseViewController.swift; sourceTree = "<group>"; };
 		FA3BBF1F21BEA871008D2BF6 /* Excercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercises.swift; sourceTree = "<group>"; };
 		FA3BBF2521BFEE88008D2BF6 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
-		FA3BBF2721BFEEAC008D2BF6 /* Ex1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex1.gif; sourceTree = "<group>"; };
-		FA3BBF2B21BFFB65008D2BF6 /* Ex2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex2.gif; sourceTree = "<group>"; };
 		FA5621F421B6CC0D00DC2C0A /* PezotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PezotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5621F721B6CC0D00DC2C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA5621F921B6CC0D00DC2C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +69,6 @@
 		FA56221A21B6CC0F00DC2C0A /* PezotosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PezotosAppUITests.swift; sourceTree = "<group>"; };
 		FA56221C21B6CC0F00DC2C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7BCD6C21C005E9008E821F /* DoingExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoingExerciseViewController.swift; sourceTree = "<group>"; };
-		FA7BCD7021C00BB5008E821F /* Ex4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex4.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +128,11 @@
 				FA56220121B6CC0F00DC2C0A /* Assets.xcassets */,
 				FA56220621B6CC0F00DC2C0A /* Info.plist */,
 				FA5621FE21B6CC0D00DC2C0A /* PezotosApp.xcdatamodeld */,
-				FA3BBF2721BFEEAC008D2BF6 /* Ex1.gif */,
-				FA3BBF2B21BFFB65008D2BF6 /* Ex2.gif */,
-				FA7BCD7021C00BB5008E821F /* Ex4.gif */,
+				FA35523A21C11F2300300714 /* Ex1.gif */,
+				FA35523C21C11F4600300714 /* Ex2.gif */,
+				FA35523E21C11F5B00300714 /* Ex3.gif */,
+				FA35524021C11F7400300714 /* Ex4.gif */,
+				FA35524221C11F8A00300714 /* Ex5.gif */,
 			);
 			path = PezotosApp;
 			sourceTree = "<group>";
@@ -272,11 +278,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7BCD7121C00BB5008E821F /* Ex4.gif in Resources */,
+				FA35524121C11F7400300714 /* Ex4.gif in Resources */,
 				FA56220521B6CC0F00DC2C0A /* LaunchScreen.storyboard in Resources */,
 				FA56220221B6CC0F00DC2C0A /* Assets.xcassets in Resources */,
-				FA3BBF2C21BFFB66008D2BF6 /* Ex2.gif in Resources */,
-				FA3BBF2821BFEEAC008D2BF6 /* Ex1.gif in Resources */,
+				FA35523D21C11F4600300714 /* Ex2.gif in Resources */,
+				FA35523F21C11F5B00300714 /* Ex3.gif in Resources */,
+				FA35524321C11F8A00300714 /* Ex5.gif in Resources */,
+				FA35523B21C11F2300300714 /* Ex1.gif in Resources */,
 				FA5621FD21B6CC0D00DC2C0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

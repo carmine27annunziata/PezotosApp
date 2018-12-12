@@ -53,8 +53,8 @@ class DoingExerciseViewController: UIViewController {
     
     @IBAction func stopButtonPressed(_ sender: UIButton) {
         let alert = UIAlertController(title: "Finish Exercise", message: "Have you finished your workout?", preferredStyle: .actionSheet)
-        alert.addAction(UIAlertAction(title: "Yes" , style : .default, handler: { action in self.performSegue(withIdentifier: "Pippo", sender: nil)} ))
-        alert.addAction(UIAlertAction(title: "No" , style : .destructive, handler: nil  ))
+        alert.addAction(UIAlertAction(title: "Yes" , style : .default, handler: { action in self.performSegue(withIdentifier: "finishSegue", sender: nil)} ))
+        alert.addAction(UIAlertAction(title: "No" , style : .cancel , handler: nil  ))
     self.present(alert, animated: true)
     }
     

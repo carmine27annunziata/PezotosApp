@@ -13,6 +13,7 @@ class ExcerciseViewController: UIViewController {
     @IBOutlet var excerciseTitle: UILabel!
     @IBOutlet var excerciseImage: UIImageView!
     @IBOutlet var excerciseDesc: UILabel!
+    @IBOutlet var countdownBig: UILabel!
     
     @IBAction func backToStart(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
@@ -50,7 +51,10 @@ class ExcerciseViewController: UIViewController {
     @objc func updateTimer() {
         countdown -= 1
         countdownLabel.text = "\(countdown)"
-        if countdown == 0 {
+        if countdown <= 3{
+            countdownBig.text = "\(countdown)"
+            countdownBig.isHidden = false
+          if countdown == 0 {
             timer.invalidate()
         }
     }
@@ -58,3 +62,4 @@ class ExcerciseViewController: UIViewController {
 
 
 
+}

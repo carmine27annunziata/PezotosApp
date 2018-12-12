@@ -113,13 +113,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjg-fR-JhL">
-                                <rect key="frame" x="166" y="323" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="yVF-Kc-cSN">
                                 <rect key="frame" x="16" y="74" width="343" height="577"/>
                                 <subviews>
@@ -215,6 +208,13 @@
                                     <action selector="backToStart:" destination="xqS-XU-G44" eventType="touchUpInside" id="v3r-cM-KMG"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjg-fR-JhL">
+                                <rect key="frame" x="30" y="160" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.76883107423782349" green="0.9268004298210144" blue="0.83136314153671265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -229,6 +229,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jBm-mu-a6n"/>
                     <connections>
+                        <outlet property="countdownBig" destination="yjg-fR-JhL" id="dL3-ry-1Os"/>
                         <outlet property="countdownLabel" destination="DWu-B3-7jo" id="Mel-zP-ukF"/>
                         <outlet property="excerciseDesc" destination="qG9-45-c4a" id="2nw-2N-84t"/>
                         <outlet property="excerciseImage" destination="mkP-Oi-zc8" id="djU-HJ-SMk"/>

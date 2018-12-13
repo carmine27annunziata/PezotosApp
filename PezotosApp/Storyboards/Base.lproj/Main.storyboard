@@ -137,11 +137,11 @@
                                         <rect key="frame" x="0.0" y="56" width="343" height="454.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mkP-Oi-zc8">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="359.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="134"/>
                                                 <color key="backgroundColor" red="0.72973459959999998" green="0.93478626009999999" blue="0.82744085789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="761" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG9-45-c4a">
-                                                <rect key="frame" x="0.0" y="387.5" width="343" height="67"/>
+                                                <rect key="frame" x="0.0" y="162" width="343" height="292.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -265,7 +265,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="28" id="pcZ-a0-0hE"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="36"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -273,11 +273,11 @@
                                         <rect key="frame" x="0.0" y="56" width="343" height="472.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BtK-Cv-063">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="409.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="137.5"/>
                                                 <color key="backgroundColor" red="0.72973459959999998" green="0.93478626009999999" blue="0.82744085789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="761" text="Stopwatch:      0:0" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZA-gA-Ezv">
-                                                <rect key="frame" x="0.0" y="437.5" width="343" height="35"/>
+                                                <rect key="frame" x="0.0" y="165.5" width="343" height="307"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -337,11 +337,27 @@
                         <outlet property="countdownLabel" destination="cZA-gA-Ezv" id="sPD-gG-ttU"/>
                         <outlet property="excerciseImage" destination="BtK-Cv-063" id="hGO-yH-Wec"/>
                         <outlet property="excerciseTitle" destination="2jb-6B-IXd" id="5PV-6q-3HD"/>
+                        <segue destination="ilf-UH-mJj" kind="show" identifier="finishSegue" id="zgR-4c-IZs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="grX-na-V6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2895" y="-740"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="d5F-O7-RIe">
+            <objects>
+                <viewController id="ilf-UH-mJj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2aK-FR-zzU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.76883107423782349" green="0.9268004298210144" blue="0.83136314153671265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="nc1-nG-dmX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7gk-DO-0iU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3903" y="-739"/>
         </scene>
     </scenes>
     <resources>

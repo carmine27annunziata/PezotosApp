@@ -19,18 +19,22 @@ class WelcomeViewController: UIViewController {
     
     @IBAction func continueAction(_ sender: Any) {
         
-        if let name = nameTextField.text {
-            defaults.set(name, forKey: "name")
-        } else {
+        if (nameTextField.text?.isEmpty)! {
             let alert = UIAlertController(title: "Empty name", message: "Please, insert your name", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
+            return
+        } else {
+            defaults.set(nameTextField.text, forKey: "name")
         }
         
-        if let weight = weightTextField.text {
-            defaults.set(weight, forKey: "weight")
-        } else {
+        if (weightTextField.text?.isEmpty)! {
             let alert = UIAlertController(title: "Empty weight", message: "Please, insert your weight", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
+            return
+        } else {
+            defaults.set(weightTextField.text, forKey: "weight")
         }
         
         let dateFormatter = DateFormatter()

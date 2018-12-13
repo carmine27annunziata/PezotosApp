@@ -49,8 +49,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        if (defaults.string(forKey: "name") == nil) && (defaults.string(forKey: "weight") == nil) && (defaults.string(forKey: "birthday") == nil) {
-            print("HOLLALLALALALAL")
+        if (defaults.string(forKey: "name") == nil) || (defaults.string(forKey: "weight") == nil) || (defaults.string(forKey: "birthday") == nil) {
             self.performSegue(withIdentifier: "goToWelcome", sender: self)
         }
     }

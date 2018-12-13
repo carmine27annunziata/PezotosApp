@@ -31,6 +31,10 @@
 		FA35524F21C1431400300714 /* Ex3.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35524C21C1431400300714 /* Ex3.gif */; };
 		FA35525021C1431400300714 /* Ex2.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35524D21C1431400300714 /* Ex2.gif */; };
 		FA35525121C1431400300714 /* Ex4.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35524E21C1431400300714 /* Ex4.gif */; };
+		FA35525721C2623E00300714 /* CompletedExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35525621C2623E00300714 /* CompletedExerciseViewController.swift */; };
+		FA35525921C2712700300714 /* Ex6.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35525821C2712700300714 /* Ex6.gif */; };
+		FA35525B21C2713F00300714 /* Ex7.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35525A21C2713E00300714 /* Ex7.gif */; };
+		FA35525D21C2716E00300714 /* Ex8.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA35525C21C2716E00300714 /* Ex8.gif */; };
 		FA3BBF1C21BEA303008D2BF6 /* CircleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF1B21BEA303008D2BF6 /* CircleSegue.swift */; };
 		FA3BBF1E21BEA5C8008D2BF6 /* ExcerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF1D21BEA5C8008D2BF6 /* ExcerciseViewController.swift */; };
 		FA3BBF2021BEA871008D2BF6 /* Excercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BBF1F21BEA871008D2BF6 /* Excercises.swift */; };
@@ -89,6 +93,10 @@
 		FA35524C21C1431400300714 /* Ex3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex3.gif; sourceTree = "<group>"; };
 		FA35524D21C1431400300714 /* Ex2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex2.gif; sourceTree = "<group>"; };
 		FA35524E21C1431400300714 /* Ex4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex4.gif; sourceTree = "<group>"; };
+		FA35525621C2623E00300714 /* CompletedExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedExerciseViewController.swift; sourceTree = "<group>"; };
+		FA35525821C2712700300714 /* Ex6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex6.gif; sourceTree = "<group>"; };
+		FA35525A21C2713E00300714 /* Ex7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex7.gif; sourceTree = "<group>"; };
+		FA35525C21C2716E00300714 /* Ex8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ex8.gif; sourceTree = "<group>"; };
 		FA3BBF1B21BEA303008D2BF6 /* CircleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSegue.swift; sourceTree = "<group>"; };
 		FA3BBF1D21BEA5C8008D2BF6 /* ExcerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseViewController.swift; sourceTree = "<group>"; };
 		FA3BBF1F21BEA871008D2BF6 /* Excercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercises.swift; sourceTree = "<group>"; };
@@ -238,6 +246,9 @@
 				FA35524C21C1431400300714 /* Ex3.gif */,
 				FA35524E21C1431400300714 /* Ex4.gif */,
 				FA35524221C11F8A00300714 /* Ex5.gif */,
+				FA35525821C2712700300714 /* Ex6.gif */,
+				FA35525A21C2713E00300714 /* Ex7.gif */,
+				FA35525C21C2716E00300714 /* Ex8.gif */,
 			);
 			path = PezotosApp;
 			sourceTree = "<group>";
@@ -267,6 +278,7 @@
 				FA3BBF1D21BEA5C8008D2BF6 /* ExcerciseViewController.swift */,
 				FA7BCD6C21C005E9008E821F /* DoingExerciseViewController.swift */,
 				9130A0B121C1570700C7A812 /* WelcomeViewController.swift */,
+				FA35525621C2623E00300714 /* CompletedExerciseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -388,6 +400,9 @@
 				9130A0D621C15AED00C7A812 /* IQKeyboardManager.bundle in Resources */,
 				FA56220521B6CC0F00DC2C0A /* LaunchScreen.storyboard in Resources */,
 				FA56220221B6CC0F00DC2C0A /* Assets.xcassets in Resources */,
+				FA35525D21C2716E00300714 /* Ex8.gif in Resources */,
+				FA35525B21C2713F00300714 /* Ex7.gif in Resources */,
+				FA35525921C2712700300714 /* Ex6.gif in Resources */,
 				FA35525021C1431400300714 /* Ex2.gif in Resources */,
 				FA35524321C11F8A00300714 /* Ex5.gif in Resources */,
 				FA35525121C1431400300714 /* Ex4.gif in Resources */,
@@ -419,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA35525721C2623E00300714 /* CompletedExerciseViewController.swift in Sources */,
 				9130A0B221C1570700C7A812 /* WelcomeViewController.swift in Sources */,
 				9130A0DD21C15AED00C7A812 /* IQNSArray+Sort.swift in Sources */,
 				9130A0D321C15AED00C7A812 /* IQInvocation.swift in Sources */,

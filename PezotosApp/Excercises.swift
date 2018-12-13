@@ -20,5 +20,8 @@ var exercises: [Excercise] = [
     Excercise(title: "Muovi il piede spastico 2", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex2")),
     Excercise(title: "CCCCCCC", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex3")),
     Excercise(title: "CCCCCCC", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex4")),
-    Excercise(title: "CCCCCCC", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex5"))
+    Excercise(title: "CCCCCCC", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex5")),
+    Excercise(title: "CCCCCCC", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex6")),
+    Excercise(title: "CCCCCCC", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex7")),
+    Excercise(title: "CCCCCCC", description: "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.", image: UIImage.gif(name: "Ex8"))
 ]

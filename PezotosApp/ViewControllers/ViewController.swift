@@ -18,8 +18,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var randomNum = 1
-        gifMain.image = UIImage.gif(name: "Ex\(randomNum)")
+        gifMain.image = UIImage.gif(name: "Ex1")
         // Do any additional setup after loading the view, typically from a nib.
     }
    

@@ -34,7 +34,7 @@ class DoingExerciseViewController: UIViewController {
         countdownSeconds = 0
         countdownMinutes += 1
     }
-    countdownLabel.text = "Stopwatch:      \(countdownMinutes):\(countdownSeconds)"
+    countdownLabel.text = "Stopwatch:      \(countdownMinutes):\(countdownSeconds < 10 ? "0" : "")\(countdownSeconds)"
         }
 
     var isPaused = false

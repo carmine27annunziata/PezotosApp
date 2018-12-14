@@ -18,7 +18,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        gifMain.image = UIImage.gif(name: "Ex1")
+        gifMain.image = UIImage.gif(name: "saluto")
         // Do any additional setup after loading the view, typically from a nib.
     }
    

@@ -10,6 +10,7 @@ import UIKit
 
 class CompletedExerciseViewController: UIViewController {
 
+    @IBOutlet var finishGif: UIImageView!
     @IBAction func nextExercise(_ sender: Any) {
         performSegue(withIdentifier: "nextExerciseSegue", sender: nil)
     }
@@ -19,6 +20,7 @@ class CompletedExerciseViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        finishGif.image = UIImage.gif(name: "finish")
 
         // Do any additional setup after loading the view.
     }

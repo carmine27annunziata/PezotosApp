@@ -55,7 +55,11 @@ class DoingExerciseViewController: UIViewController {
         let alert = UIAlertController(title: "Finish Exercise", message: "Have you finished your workout?", preferredStyle: .actionSheet)
         alert.addAction(UIAlertAction(title: "Yes" , style : .default, handler: { action in self.performSegue(withIdentifier: "finishSegue", sender: nil)} ))
         alert.addAction(UIAlertAction(title: "No" , style : .cancel , handler: nil  ))
-    self.present(alert, animated: true)
+        if let popoverController = alert.popoverPresentationController {
+            popoverController.sourceView = sender
+            popoverController.sourceRect = sender.bounds
+        }
+        self.present(alert, animated: true)
     }
     
 
